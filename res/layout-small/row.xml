@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:gravity="left|center"
+    android:layout_width="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="3dp">
+     <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingLeft="15dip">
+     </TextView>
+     
+     <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="10dip"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#484848">
+     </TextView>
+     
+     <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="10dip"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#484848">
+     </TextView>
+     
+     <ImageButton
+         android:id="@+id/edit_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@null"
+         android:contentDescription="@string/desc_edit"
+         android:src="@drawable/edit" />
+
+     <ImageButton
+         android:id="@+id/remove_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@null"
+         android:contentDescription="@string/desc_remove"
+         android:src="@drawable/remove" />
+ 
+</LinearLayout>

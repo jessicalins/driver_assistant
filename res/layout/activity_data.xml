@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CFCFCF"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#707070">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="15dip"
+            android:text="@string/date"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        
+        <TextView android:id="@+id/tv_2"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_width="100dip"
+            android:layout_toRightOf="@+id/tv_1"
+            android:text="@string/measure">
+        </TextView>
+        
+        <TextView android:id="@+id/tv_3"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_width="100dip"
+            android:layout_toRightOf="@+id/tv_2"
+            android:text="@string/amount">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_data_measure"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_2"
+            android:layout_below="@+id/tv_2" />
+
+        <TextView
+            android:id="@+id/tv_data_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_3"
+            android:layout_below="@+id/tv_3"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+ 
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/lv_data"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:cacheColorHint="#00000000">
+    </ListView>
+</LinearLayout>

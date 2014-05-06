@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Driver Assistant</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="hello_world">Ciao mondo!</string>
+    <string name="desc_logo">App logo</string>
+    <string name="desc_logo_stat">App immagine statistiche</string>
+    <string name="button">Button</string>
+    <string name="view_data">Dati</string>
+    <string name="stat">Statistiche</string>
+    <string name="config">Impostazioni</string>
+    <string name="about">Circa</string>
+    <string name="action_add">Aggiungere nuovi dati</string>
+    <string name="enter_mileage">Inserire il valore attuale riportato sul cruscotto dell\'auto:</string>
+    <string name="enter_amount">Inserire l\'importo speso in carburante:</string>
+    <string name="submit">Sotoporre</string>
+    <string name="measure">Misura</string>
+    <string name="amount">Importo</string>
+    <string name="date">Data</string>
+    <string name="desc_edit">Immagine button edit</string>
+    <string name="desc_about">Immagine circa</string>
+    <string name="desc_remove">Immagine button di togliere</string>
+    <string name="average_cost">Costo medio</string>
+    <string name="amount_spent">Importo speso nell\'anno attuale</string>
+    <string name="config_measure">Scegliere l\'unità di misura desiderata:</string>
+    <string name="mileage">miglia</string>
+    <string name="mileage_">percorso chilometrico</string>
+    <string name="km">km</string>
+    <string name="config_currency">Scegliere la valuta desiderata:</string>
+    <string name="euro">euro</string>
+    <string name="dollar">dollaro</string>
+    <string name="text_about">L\'Assistente app driver ha l\'obiettivo di aiutare l\'utente con la gestione della sua spesa con il carburante. 
+        L\'applicazione consente di monitorare e valutare il consumo di carburante dell\'auto e anche alcune statistiche, come il costo medio per miglia (o km). 
+        Con il Driver Assistant, si può avere un maggiore controllo e informazioni su come sono la vostra spesa in ogni ricarica della vostra auto.</string>
+    <string name="info">Sviluppato da Jessica Lins Laureno.</string>
+    <string name="email">jessicalins81@gmail.com</string>
+    <string name="year">Torino, Italia - 2014</string>
+    <string name="title_activity_data">Visualizzazione dei dati</string>
+    <string name="title_activity_add_data">Aggiornamento dei dati</string>
+    <string name="title_activity_average_cost">Costo Medio</string>
+    <string name="title_activity_statistics">Statistiche</string>
+    <string name="title_activity_amount_spent">Importo Speso</string>
+    <string name="title_activity_config">Impostazioni</string>
+    <string name="title_activity_about">Circa</string>
+    
+    <string name="toast_field">Se prega di inserire dati!</string>
+    <string name="toast_mileage">Il nuovo chilometraggio o miglia deve essere maggiore che l\'ultima misura aggiunta!</string>
+    <string name="data_graphic">Non ci sono dati da tracciare nel grafico. Si prega di aggiungere alcuni dati!</string>
+	<string name="amount_spent_cYear">Importo speso nell\'anno attuale (</string>
+	<string name="are_you_sure">Sei sicuro di eliminare questa entrata?</string>
+	<string name="yes">Sì</string>
+	<string name="no">No</string>
+	<string name="average_cost_graphic">Costo medio per miglia/km</string>
+	<string name="average">Costo medio</string>
+	
+	<style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

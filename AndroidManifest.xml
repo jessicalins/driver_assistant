@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.polito.inginformatica.driverassistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <supports-screens android:resizeable="true"
+                  android:smallScreens="true" 
+                  android:normalScreens="true" 
+                  android:largeScreens="true" 
+                  android:xlargeScreens="true" 
+                  android:anyDensity="true" 
+                  android:requiresSmallestWidthDp="320"
+                  android:compatibleWidthLimitDp="320"
+                  android:largestWidthLimitDp="320"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.DataActivity"
+            android:label="@string/title_activity_data" >
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.AddDataActivity"
+            android:label="@string/title_activity_add_data" >
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.AverageCostActivity"
+            android:label="@string/title_activity_average_cost" >
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.StatisticsActivity"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.AmountSpentActivity"
+            android:label="@string/title_activity_amount_spent" >
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.ConfigActivity"
+            android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name="it.polito.inginformatica.driverassistant.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

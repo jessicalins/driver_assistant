@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Driver Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="desc_logo">App logo</string>
+    <string name="desc_logo_stat">App image statistics</string>
+    <string name="button">Button</string>
+    <string name="view_data">View Data</string>
+    <string name="stat">Statistics</string>
+    <string name="config">Configurations</string>
+    <string name="about">About</string>
+    <string name="action_add">Add new data</string>
+    <string name="enter_mileage">Enter the current value reported on your car dashboard:</string>
+    <string name="enter_amount">Enter the amount of money spent in fuel:</string>
+    <string name="submit">Submit</string>
+    <string name="measure">Mileage</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="desc_edit">Image button edit</string>
+    <string name="desc_about">Image about</string>
+    <string name="desc_remove">Image button remove</string>
+    <string name="average_cost">Average cost</string>
+    <string name="amount_spent">Amount spent in the current year</string>
+    <string name="config_measure">Choose the desired measure unit:</string>
+    <string name="mileage">miles</string>
+    <string name="mileage_">mileage</string>
+    <string name="km">km</string>
+    <string name="config_currency">Choose the desired currency:</string>
+    <string name="euro">euro</string>
+    <string name="dollar">dollar</string>
+    <string name="text_about">The Driver Assistant app has a goal to help the user with the management of your spending
+        with fuel. The application allows you to track and assess fuel consumption of the car and also some statistics, 
+        like the average cost per mile (or km). With Driver Assistant, you will have more control and information about
+        how are your spending in every refill of your car.</string>
+        
+    <string name="info">Developed by Jessica Lins Laureno</string>
+    <string name="email">jessicalins81@gmail.com</string>
+    <string name="year">Turim, Italy - 2014</string>
+    <string name="toast_field">The field cannot be empty!</string>
+    <string name="toast_mileage">The new mileage should be greater than the last measure added!</string>
+    <string name="data_graphic">There isn\'t data to plot in the graphic. Please add some data!</string>
+	<string name="amount_spent_cYear">Amount spent in the current year (</string>
+	<string name="are_you_sure">Are you sure you want to delete this entry?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="average_cost_graphic">Average cost per mile/km</string>
+	<string name="average">Average</string>
+	
+    
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_data">View Data</string>
+    <string name="title_activity_add_data">Add Data</string>
+    <string name="title_activity_average_cost">Average Cost</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_amount_spent">Amount Spent</string>
+    <string name="title_activity_config">Configurations</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
